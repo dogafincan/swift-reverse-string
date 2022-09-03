@@ -1,3 +1,3 @@
 # ReverseString
 
-A description of this package.
+A string reversal package written for educational purposes.
