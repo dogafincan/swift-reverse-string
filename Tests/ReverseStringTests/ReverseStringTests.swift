@@ -3,22 +3,22 @@ import XCTest
 
 final class ReverseStringTests: XCTestCase {
     func testKorean() throws {
-        XCTAssertEqual(reverseString("안녕하세요"), "요세하녕안")
+        XCTAssertEqual(reverse(string: "안녕하세요"), "요세하녕안")
     }
     
     func testJapanese() throws {
-        XCTAssertEqual(reverseString("こんにちは"), "はちにんこ")
+        XCTAssertEqual(reverse(string: "こんにちは"), "はちにんこ")
     }
     
     func testMandarin() throws {
-        XCTAssertEqual(reverseString("你好"), "好你")
+        XCTAssertEqual(reverse(string: "你好"), "好你")
     }
     
     func testThai() throws {
-        XCTAssertEqual(reverseString("สวัสดีครับ"), "บรัคดีสวัส")
+        XCTAssertEqual(reverse(string: "สวัสดีครับ"), "บรัคดีสวัส")
     }
     
     func testVietnamese() throws {
-        XCTAssertEqual(reverseString("xin chào"), "oàhc nix")
+        XCTAssertEqual(reverse(string: "xin chào"), "oàhc nix")
     }
 }

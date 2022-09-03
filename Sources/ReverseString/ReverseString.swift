@@ -1,3 +1,3 @@
-public func reverseString(_ string: String) -> String {
+public func reverse(string: String) -> String {
     String(string.reversed())
 }
